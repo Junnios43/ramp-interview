@@ -1,0 +1,28 @@
+# Ramp Inbox
+
+## Spec
+
+Build a simple inbox that is divided into two sections:
+
+- A left pane listing all emails
+- A right side preview pane
+
+### Unread Email List
+
+We should display the following:
+
+- Email subject
+- Email sender
+- Email date
+- Light Grey background color for "read" emails, and white for "unread"
+- Click on an email to open in preview pane
+- Mark email as "read" when opened
+
+### Preview Pane
+
+- Header section containing subject, sender, and date
+- Body section containing email content
+
+### Email Data
+
+You can fetch the email data using isomorphic-fetch or requests at [this url](https://gist.githubusercontent.com/Jsarihan/d5f8cd2d159d676fbfb2fab94750635e/raw/b54cc1bd819b157a93bde00fe059825002f1f602/email.json)

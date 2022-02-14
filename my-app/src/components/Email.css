@@ -1,0 +1,7 @@
+.EmailRead {
+  background-color: lightgray;
+  border: 5px solid black;
+}
+.EmailUnread {
+  border: 5px solid black;
+}
